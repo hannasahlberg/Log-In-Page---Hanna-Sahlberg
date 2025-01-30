@@ -1,0 +1,135 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*flexbox on the body*/
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://wallpapercave.com/wp/wp3249013.jpg);
+}
+
+/*Flexbox on the main part of the site*/
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    margin: 90px 0px;
+    border-radius: 1.5rem;
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.4);
+}
+
+/* font and color on the "Welcome" text*/
+h1{
+    margin: 100px 0px 0px 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(77, 73, 73);
+    font-size:40px;
+    text-align: center;
+}
+
+/* Font and color of the text below the "Welcome" text*/
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(101, 97, 97);
+    font-weight:500;
+    margin: 3px 0px 13px 5px;
+}
+
+/* Applying a background and some effects on the login button*/
+.login button{
+    height: 60px;
+    width: 250px;
+    margin: 15px 0px 8px 0px;
+    border-radius: 1rem;
+    color: white;
+    font-size: 30px;
+    border: none;
+    transition: transform 0.2s ease;
+    outline:none;
+    background-image:url(https://wallpapercave.com/wp/wp3249013.jpg);
+}
+
+/* Making the login button bigger while hovering*/
+.login button:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+    box-shadow:2px 2px 7px rgba(0,0,0,0.4);
+}
+
+/*Applying some color and adjustments on the register button*/
+.register button{
+    height: 60px;
+    width: 250px;
+    margin: 8px 0px 0px 0px;
+    border-radius: 1rem;
+    color:  rgb(223, 103, 123);
+    font-size: 30px;
+    transition: transform 0.2s ease;
+    border: 2.5px solid rgb(214, 113, 130);
+}
+/* Making the register button bigger while hovering*/
+.register button:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+    box-shadow:2px 2px 7px rgba(0,0,0,0.4);
+}
+/* Font-changes and placement of the "Not a Member" text*/
+.register p{
+    font-size: 16px;
+    margin: 12px 0px 0px 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Design of the email input*/
+.email{
+    height: 60px;
+    width: 250px;
+    border-radius: 1rem;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(208, 204, 204);
+    margin: 30px 0px 20px 0px;
+    border: none;
+}
+
+/*Design of the password input*/
+.password{
+    height: 60px;
+    width: 250px;
+    border-radius: 1rem;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(208, 204, 204);
+    margin: 0px 0px 36px 0px;
+    border: none;
+}
+
+/* Erasing the default outline of the input*/
+.password:focus, .email:focus{
+    outline:none;
+}
+
+/* Making a border on the inputs while hovering*/
+.password:hover, .email:hover{
+    border: 2.5px solid rgb(208, 133, 145);
+}
+
+/* font and placement of the text beside the checkbox*/
+.checkbox p{
+    margin: -20px 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+/* placement of the checkbox*/
+.checkbox{
+    margin: 10px 0px;
+}
+
+
